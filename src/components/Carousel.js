@@ -41,31 +41,31 @@ const Carousel = () => {
       <Slider {...settings}>
         <div>
           <img
-            src={process.env.PUBLIC_URL + "Images/Carousel/CAROUSEL1.png"}
+            src={process.env.PUBLIC_URL + "/Images/Carousel/CAROUSEL1.png"}
             alt="Image1"
           />
         </div>
         <div>
           <img
-            src={process.env.PUBLIC_URL + "Images/Carousel/CAROUSEL2.png"}
+            src={process.env.PUBLIC_URL + "/Images/Carousel/CAROUSEL2.png"}
             alt="Image1"
           />
         </div>
         <div>
           <img
-            src={process.env.PUBLIC_URL + "Images/Carousel/CAROUSEL3.png"}
+            src={process.env.PUBLIC_URL + "/Images/Carousel/CAROUSEL3.png"}
             alt="Image3"
           />
         </div>
         <div>
           <img
-            src={process.env.PUBLIC_URL + "Images/Carousel/CAROUSEL4.png"}
+            src={process.env.PUBLIC_URL + "/Images/Carousel/CAROUSEL4.png"}
             alt="Image4"
           />
         </div>
         <div>
           <img
-            src={process.env.PUBLIC_URL + "Images/Carousel/CAROUSEL5.png"}
+            src={process.env.PUBLIC_URL + "/Images/Carousel/CAROUSEL5.png"}
             alt="Image5"
           />
         </div>

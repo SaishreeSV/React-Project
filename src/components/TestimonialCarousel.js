@@ -3,17 +3,17 @@ import "./Styles/TestimonialCarousel.css";
 
 const testimonials = [
   {
-    image: process.env.PUBLIC_URL + "Images/Testimonials/Img1.png",
+    image: process.env.PUBLIC_URL + "/Images/Testimonials/Img1.png",
     name: "Sai",
     text: "Easily copy and paste Testimonial components, sections and elements for in just one click. With hundreds of predesigned Testimonial components to choose from, we make it easy for you to create a beautiful web app or website with ",
   },
   {
-    image: process.env.PUBLIC_URL + "Images/Testimonials/Img2.png",
+    image: process.env.PUBLIC_URL + "/Images/Testimonials/Img2.png",
     name: "Tony",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Easily copy and paste Testimonial components, Easily copy and paste Testimonial components, Nullam euismod nulla nec nisl iaculis, a aliquam nunc sollicitudin.",
   },
   {
-    image: process.env.PUBLIC_URL + "Images/Testimonials/Img3.png",
+    image: process.env.PUBLIC_URL + "/Images/Testimonials/Img3.png",
     name: "Shree",
     text: "Gain access to our complete library of components. Easily copy and paste Testimonial components, Easily copy and paste Testimonial Easily copy and paste Testimonial components, Unlimited combinations for you to build better products faster.",
   },

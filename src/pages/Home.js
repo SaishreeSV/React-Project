@@ -20,25 +20,25 @@ export default function Home(props) {
             "
       />
       <TextImage
-        imageUrl={process.env.PUBLIC_URL + "Images/TeaTypes/Tea1.png"}
+        imageUrl={process.env.PUBLIC_URL + "/Images/TeaTypes/Tea1.png"}
         heading={<Modal heading="Black Tea" />}
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod nulla nec nisl iaculis, a aliquam nunc sollicitudin."
         props={props.mode}
       />
       <ImageText
-        imageUrl={process.env.PUBLIC_URL + "Images/TeaTypes/Tea2.png"}
+        imageUrl={process.env.PUBLIC_URL + "/Images/TeaTypes/Tea2.png"}
         heading={<Modal heading="Ginger Tea" />}
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod nulla nec nisl iaculis, a aliquam nunc sollicitudin."
         props={props.mode}
       />
       <TextImage
-        imageUrl={process.env.PUBLIC_URL + "Images/TeaTypes/Tea3.png"}
+        imageUrl={process.env.PUBLIC_URL + "/Images/TeaTypes/Tea3.png"}
         heading={<Modal heading="Cinnamon Tea" />}
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod nulla nec nisl iaculis, a aliquam nunc sollicitudin."
         props={props.mode}
       />
       <ImageText
-        imageUrl={process.env.PUBLIC_URL + "Images/TeaTypes/Tea4.png"}
+        imageUrl={process.env.PUBLIC_URL + "/Images/TeaTypes/Tea4.png"}
         heading={<Modal heading="Masala Tea" />}
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod nulla nec nisl iaculis, a aliquam nunc sollicitudin."
         props={props.mode}

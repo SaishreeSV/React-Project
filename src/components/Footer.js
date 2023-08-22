@@ -16,9 +16,9 @@ const Footer = () => {
             <div className="footer-logo">
               <FontAwesomeIcon icon={faLeaf} />
             </div>
-            <a href="/FAQ" >FAQ</a>
-            <a href="/ContactUs" >Help & Support</a>
-            <a href="/ContactUs" >Contact Us</a>
+            <a href="/src/pages/FAQ" >FAQ</a>
+            <a href="pages/contactus" >Help & Support</a>
+            <a href="src/pages/contactus" >Contact Us</a>
           </div>
         </div>
 
