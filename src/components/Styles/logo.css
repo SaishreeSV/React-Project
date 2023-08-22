@@ -1,0 +1,13 @@
+/* Assuming the logo has an ID of 'logo' */
+#logo {
+    width: 150px; /* Adjust this value as needed */
+    height: auto; /* This ensures the aspect ratio is maintained */
+    display: block; /* Ensures the logo respects its container's width */
+    max-width: 100%; /* Ensures the logo won't exceed its original size */
+    border-radius: 10%;
+  }
+
+.nav-item{
+    font-size: 17px;
+}
+  

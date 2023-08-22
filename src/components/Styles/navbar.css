@@ -1,0 +1,9 @@
+.bg-color{
+    background-color: #050505;
+    /* height: 100px; */
+}
+
+.nav-item{
+    box-shadow: none; /* Remove the box shadow */
+    outline: none; /* Remove the outline */
+}

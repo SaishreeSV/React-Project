@@ -1,0 +1,9 @@
+.carousel-container {
+    max-width: 800px; /* Adjust this value as needed */
+    max-height: 400px; /* Adjust this value to reduce the carousel height */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+.carousel-inner {
+    max-height: 100%; /* Ensure the carousel items take up the available height */
+}

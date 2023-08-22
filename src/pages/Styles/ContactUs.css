@@ -1,0 +1,22 @@
+.instagram-icon {
+  color: #e1306c; 
+  transition: color 0.3s ease-in-out;
+}
+
+.linkedin-icon {
+  color: #0e76a8;
+  transition: color 0.3s ease-in-out;
+}
+
+.whatsapp-icon {
+  color: #25d366;
+  transition: color 0.3s ease-in-out; 
+}
+
+.paragraph{
+  text-align: center;
+}
+
+.card-container{
+  margin-top: 20px;
+}

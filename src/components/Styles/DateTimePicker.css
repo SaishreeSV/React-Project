@@ -1,0 +1,63 @@
+/* Custom styles for the datepicker container */
+.react-datepicker {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the input field */
+  .react-datepicker__input-container input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 16px;
+    width: 300px;
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+/* Remove the pseudo-element style */
+.react-datepicker__input-container::before {
+    content: '\f073'; /* FontAwesome calendar icon (can use any icon library or image) */
+    font-family: FontAwesome;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 16px;
+    pointer-events: none;
+  }
+  
+  
+  /* Style the datepicker popup */
+  .react-datepicker-popper {
+    z-index: 1; /* Ensure the datepicker is above other elements */
+  }
+  
+  /* Style the datepicker header */
+  .react-datepicker__header {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Style the datepicker navigation buttons */
+  .react-datepicker__navigation {
+    color: #555;
+  }
+  
+  /* Style the datepicker days */
+  .react-datepicker__day {
+    color: #555;
+  }
+  
+  /* Style the datepicker selected day */
+  .react-datepicker__day--selected {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Style the datepicker time select dropdown */
+  .react-datepicker__time-list {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+  }
+  
